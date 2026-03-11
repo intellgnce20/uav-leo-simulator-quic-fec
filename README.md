@@ -2,15 +2,15 @@
 
 This is a single-page interactive visualization dashboard built with Next.js, designed to simulate and demonstrate the communication performance of "Unmanned Aerial Vehicle (UAV) Swarms to Low Earth Orbit (LEO) Satellites" under various battlefield threat scenarios.
 
-## 🎯 New Features & Laboratory Characteristics
+## New Features & Laboratory Characteristics
 
 We have implemented the following core visualization and simulation features in this project:
 
 1. **Dynamic Battlefield Threat Scenarios**
-   - 🟢 Clear (Base Formation Coordination): 1% random packet loss.
-   - 🟡 Rain (Rain Attenuation & Cloud Cover): 5% burst packet loss.
-   - 🔴 Targeted Jamming: High-frequency malicious interference causing massive burst packet losses.
-   - 💥 Topology Break: Simulates large-scale continuous packet loss caused by node or leader destruction.
+   - Clear (Base Formation Coordination): 1% random packet loss.
+   - Rain (Rain Attenuation & Cloud Cover): 5% burst packet loss.
+   - Targeted Jamming: High-frequency malicious interference causing massive burst packet losses.
+   - Topology Break: Simulates large-scale continuous packet loss caused by node or leader destruction.
 2. **Multi-Protocol Performance Comparison (M2M Protocols)**
    - Real-time switching between TCP and QUIC to observe transmission latency and packet blocking under the same interference environment.
 3. **Active Defense Mechanism Adjustability (AL-FEC Redundancy Control)**
@@ -19,7 +19,7 @@ We have implemented the following core visualization and simulation features in 
    - Integrates Recharts to provide real-time charts of the anti-destruction index, tactical latency, and effective packet loss rate.
    - Visually demonstrates the transmission status of packets (normal, stalled, lost) between the LEO command and the Drone Swarm Mesh.
 
-## 📡 Core Protocol Supplementary Notes
+## Core Protocol Supplementary Notes
 
 ### QUIC (Quick UDP Internet Connections)
 In this simulation, QUIC is designed as a "**Distributed Anti-Blocking**" solution.
@@ -32,7 +32,7 @@ An active application-layer forward error correction technology.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 First, run the development server:
 
